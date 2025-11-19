@@ -1,0 +1,20 @@
+# 1. 变量和数据类型
+name = "人工智能"
+age = 3
+price = 99.99
+is_active = True
+print(f"名称: {name}, 类型: {type(name)}")
+print(f"年龄: {age}, 类型: {type(age)}")
+print(f"价格: {price}, 类型: {type(price)}")
+print(f"状态: {is_active}, 类型: {type(is_active)}")
+# 2. 列表操作
+fruits = ["apple", "banana", "orange"]
+fruits.append("grape")
+fruits.remove("banana")
+print("水果列表:", fruits)
+# 3. 字典操作
+student = {
+    "name": "张三",
+    "age": 20,
+    "major": "计算机科学"}
+student["grade"] = 90print("学生信息:", student)
